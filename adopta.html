@@ -1,23 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>¿Por qué Adoptar un Perro o Corgi?</title>
-    <link rel="stylesheet" href="estilo.css">
+    <title>Contacto - BigBooty Corgi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f2e3cb;
+            min-height: 100vh;
+            position: relative;
+        }
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: #573f28;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <h1>¿Por qué Adoptar un Perro o Corgi?</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #573f28;">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="imagenes/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="Logo Corgi">
+                Tu Sitio
+            </a>
+            <!-- Botón de hamburguesa para dispositivos móviles -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Barra de navegación con enlaces -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="donaciones.html">Donaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trabaja.html">Trabaja con Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="adopta.html">Adopta con Nosotros</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </header>
-    <p>En 'BigBooty Corgi', nuestro compromiso es unir corazones peludos con hogares amorosos. Somos una organización dedicada a la adopción responsable de perros, ¡y los corgis tienen un lugar especial en nuestros corazones! Aquí te contamos por qué la adopción de un corgi o cualquier perro es una decisión maravillosa y cómo puedes hacer la diferencia en la vida de uno de estos fieles amigos.</p>
+    </nav>
 
+    <!-- Contenido de la página -->
+    <div class="container my-5">
+        <h1>Contacto</h1>
+        <p>Por favor, completa el siguiente formulario para que podamos ayudarte en el proceso de adopción. Queremos asegurarnos de que nuestros Corgis encuentren hogares llenos de amor y cuidado. .</p>
+        <form>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="celular" class="form-label">Número de Celular</label>
+                <input type="tel" class="form-control" id="celular" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo de Contacto</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="razon" class="form-label">Razón para Adoptar un Corgi</label>
+                <textarea class="form-control" id="razon" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <!-- Footer fijo en la parte inferior -->
+    <div class="footer">
+        <div class="container py-3">
+            <p>Tu información de contacto o cualquier otro contenido que desees agregar en el footer.</p>
+        </div>
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
-
 
 
 

@@ -1,43 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Necesitamos tu ayuda</title>
-    <link rel="stylesheet" href="estilo.css">
+    <title>Donaciones - BigBooty Corgi</title>
+    <!-- Bootstrap 4.5.2 (con jQuery incluido) a través de CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-color: #f2e3cb;
+            min-height: 100vh;
+            position: relative;
+        }
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: #573f28;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <div class="navbar">
-        <a href="conocenos.html">Conócenos</a>
-        <a href="trabaja.html">Trabaja con nosotros</a>
-        <a href="menu.html">Menu</a>
-        <a href="adopta.html">Adopta con nosotros</a>
-    </div>
-    <header>
-        <div class="header-content">
-            <h1>Necesitamos tu ayuda</h1>
-            <p>En 'Nuestra Casa de Amor Canino', nuestro compromiso es inquebrantable: brindar un refugio seguro y encontrar hogares amorosos para nuestros queridos perros rescatados. Sin embargo, para cumplir con esta misión noble y continuar haciendo una diferencia en la vida de estos fieles compañeros, necesitamos tu apoyo económico.</p>
+    <!-- Navbar (código del navbar) -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #573f28;">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="imagenes/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="Logo Corgi">
+                Tu Sitio
+            </a>
+            <!-- Botón de hamburguesa para dispositivos móviles -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Barra de navegación con enlaces -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="donaciones.html">Donaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trabaja.html">Trabaja con Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="adopta.html">Adopta con Nosotros</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </header>
+    </nav>
 
-    <main>
-        <section>
-            <h2>¿Por qué necesitamos tu ayuda?</h2>
-            <ul>
-                <li><strong>Cuidado y Atención Veterinaria:</strong> Nuestros peludos amigos llegan a nosotros en diversas condiciones, algunos necesitan atención médica urgente. Tu donación nos permite proporcionar atención veterinaria de calidad, garantizando que nuestros perros estén saludables y felices.</li>
-               
-            </ul>
-        </section>
 
-        <section>
-            <h2>Tu donación marca la diferencia</h2>
-            <p>Tu donación hace posible nuestra labor. Cada centavo marca la diferencia en la vida de nuestros peludos amigos y nos acerca un paso más a nuestro objetivo de encontrar hogares amorosos para todos ellos. Juntos, podemos cambiar vidas y darles a estos leales compañeros la segunda oportunidad que se merecen.</p>
-        </section>
-    </main>
+    <!-- Contenido de Donaciones -->
+    <div class="container my-5">
+        <h1>Donaciones</h1>
+        <p>Agradecemos tu interés en apoyar a BigBooty Corgi con una donación. Tu generosidad nos permite continuar nuestra misión de proteger y cuidar a los Corgis. Cada donación, sin importar el tamaño, marca la diferencia en la vida de estos adorables perros.</p>
+        <p>Tu donación se utilizará para:</p>
+        <ul>
+            <li>Proporcionar atención veterinaria de calidad.</li>
+            <li>Alimentar y cuidar a los Corgis en nuestro refugio.</li>
+            <li>Fomentar la adopción y encontrar hogares amorosos para los Corgis.</li>
+        </ul>
+        <p>¡Tu apoyo es fundamental para nuestra organización y los Corgis que ayudamos! Gracias por ser parte de nuestra misión.</p>
+    </div>
 
-    <footer>
-        <p>Nuestra Casa de Amor Canino está agradecida por tu generosidad y compromiso con nuestra causa. Cualquier contribución, grande o pequeña, nos ayuda a continuar nuestro trabajo. ¡Por favor, considera hacer una donación hoy y únete a nosotros en este viaje de amor y compasión hacia nuestros amigos de cuatro patas!</p>
-        <p>¡Gracias por ser un héroe para los perros necesitados!</p>
-    </footer>
+    <!-- Formulario de Donación (puedes agregar un formulario de donación aquí) -->
+
+    <!-- Footer fijo en la parte inferior -->
+    <div class="footer">
+        <div class="container py-3">
+            <p>Tu información de contacto o cualquier otro contenido que desees agregar en el footer.</p>
+        </div>
+    </div>
 </body>
-</html>
+</htm
