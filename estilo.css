@@ -1,0 +1,56 @@
+body {
+    background-color: beige;
+}
+header {
+    font-size: 20px; 
+    }
+    
+section {
+        font-size: 20px; 
+    }
+    
+img {
+        max-width: 45%; 
+        height: auto; 
+    }
+/* Estilos para el encabezado */
+.header-content { 
+    background-color: peru; /* Color de fondo */
+    padding: 20px; /* Espaciado alrededor del contenido */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilos para el título */
+.header-content h1 {
+    font-size: 35px; /* Tamaño de fuente del título */
+    margin: 0; /* Elimina el margen predeterminado para el título */
+}
+
+/* Estilos para el párrafo */
+.header-content p {
+    font-size: 25px; /* Tamaño de fuente para el párrafo */
+    margin-top: 10px; /* Espacio superior */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+    /* Estilos para la barra de navegación */
+    .navbar {
+        background-color: #333; /* Color de fondo de la barra */
+        overflow: hidden; /* Para ocultar elementos desbordados */
+    }
+
+    /* Estilos para los botones de la barra de navegación */
+    .navbar a {
+        float: left; /* Colocar los botones en línea */
+        display: block; /* Hacer que los botones sean elementos de bloque para ajustar el espacio correctamente */
+        color: white; /* Color del texto del botón */
+        text-align: center; /* Alineación del texto en el botón */
+        padding: 14px 16px; /* Espacio alrededor del texto en el botón */
+        text-decoration: none; /* Quitar subrayado del enlace */
+    }
+
+    /* Cambiar el color del botón cuando se pasa el mouse sobre él */
+    .navbar a:hover {
+        background-color: #ddd; /* Color de fondo al pasar el mouse */
+        color: black; /* Color del texto al pasar el mouse */
+    }
