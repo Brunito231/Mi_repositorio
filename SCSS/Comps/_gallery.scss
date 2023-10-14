@@ -1,0 +1,15 @@
+.gallery {
+    margin-top: 20px;
+    .col-md-4 {
+        img {
+            width: 100%;
+            border: 3px solid #fff;
+            transition: transform 0.3s; /* Agrega una animación de transformación */
+            cursor: pointer;
+
+            &:hover {
+                transform: scale(1.05); /* Escala la imagen en un 5% en el hover */
+            }
+        }
+    }
+}

@@ -2,17 +2,20 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Descubre tu compañero peludo perfecto en nuestra página de adopción de Corgis. Encuentra Corgis adorables listos para un hogar lleno de amor. ¡Adopta hoy y sé parte de nuestra familia de amantes de los Corgis!">
+    <meta name="keywords" content="corgi, perros, adopcion,">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tu Sitio Web</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/Styile.css">
+    <link rel="icon" href="imagenes/logo.jpg" type="image/png">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #573f28;">
         <div class="container">
             <!-- Logo -->
             <a class="navbar-brand" href="#">
-                <img src="imagenes/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="Logo Corgi">
+                <img src="imagenes/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="Logo">
                 Tu Sitio
             </a>
             <!-- Botón de hamburguesa para dispositivos móviles -->
@@ -46,17 +49,33 @@
     <div class="container my-5">
         <h1>Únete a Nuestro Equipo</h1>
         <p>En 'BigBooty Corgi', creemos en la importancia de brindar una segunda oportunidad a los Corgis y en encontrarles hogares amorosos. Si compartes nuestra pasión por ayudar a estos adorables peludos, considera trabajar con nosotros.</p>
-        <img src="imagenes/rescatado.jpg" alt="Corgi rescatado" class="img-fluid">
+        <div class="text-center">
+            <img src="imagenes/rescatado.jpg" alt="Corgi rescatado" class="img-fluid" style="max-width: 500px;">
+        </div>
         <p>Nuestro equipo se dedica a rescatar y rehabilitar Corgis que necesitan ayuda. Al unirte a nosotros, estarás contribuyendo a esta noble causa y haciendo del mundo un lugar mejor para estos maravillosos perros.</p>
     </div>
 
-    <!-- Footer fijo en la parte inferior -->
-    <div class="footer">
-        <div class="container py-3">
-            <p>Tu información de contacto o cualquier otro contenido que desees agregar en el footer.</p>
-        </div>
+    <!-- Formulario de suscripción -->
+    <div class="container my-5">
+        <h2>Suscríbete a nuestra lista de voluntarios remunerados</h2>
+        <p>Recibe actualizaciones y noticias sobre toda la ayuda que podrian brindarnos.</p>
+        <form>
+            <div class="form-group">
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" class="form-control" id="correo" placeholder="correo@ejemplo.com">
+            </div>
+            <button type="submit" class="btn btn-primary">Suscribirse</button>
+        </form>
     </div>
 
+    <!-- Footer fijo en la parte inferior -->
+</footer>
+<div class="footer">
+    <div class="container py-3">
+        <p>Deja huellas de amor en cada paso que das</p>
+    </div>
+</div>
+</footer>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

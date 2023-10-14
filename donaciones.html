@@ -3,26 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre tu compañero peludo perfecto en nuestra página de adopción de Corgis. Encuentra Corgis adorables listos para un hogar lleno de amor. ¡Adopta hoy y sé parte de nuestra familia de amantes de los Corgis!">
+    <meta name="keywords" content="corgi, perros, adopcion,">
     <title>Donaciones - BigBooty Corgi</title>
     <!-- Bootstrap 4.5.2 (con jQuery incluido) a través de CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Styile.css">
+    <link rel="icon" href="imagenes/logo.jpg" type="image/png">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <style>
-        body {
-            background-color: #f2e3cb;
-            min-height: 100vh;
-            position: relative;
-        }
-        .footer {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            background-color: #573f28;
-            color: white;
-        }
-    </style>
 </head>
 <body>
     <!-- Navbar (código del navbar) -->
@@ -30,7 +20,7 @@
         <div class="container">
             <!-- Logo -->
             <a class="navbar-brand" href="#">
-                <img src="imagenes/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="Logo Corgi">
+                <img src="imagenes/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="Logo">
                 Tu Sitio
             </a>
             <!-- Botón de hamburguesa para dispositivos móviles -->
@@ -73,14 +63,29 @@
         </ul>
         <p>¡Tu apoyo es fundamental para nuestra organización y los Corgis que ayudamos! Gracias por ser parte de nuestra misión.</p>
     </div>
-
+    <div class="container my-5">
+        <h2>Realiza tu Donación</h2>
+        <form>
+            <div class="form-group">
+                <label for="monto">Monto a Donar</label>
+                <input type="number" class="form-control" id="monto" placeholder="Ingrese el monto en USD" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" class="form-control" id="correo" placeholder="example@example.com" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Donar</button>
+        </form>
+    </div>
     <!-- Formulario de Donación (puedes agregar un formulario de donación aquí) -->
 
     <!-- Footer fijo en la parte inferior -->
+<footer></footer>
     <div class="footer">
         <div class="container py-3">
-            <p>Tu información de contacto o cualquier otro contenido que desees agregar en el footer.</p>
+            <p>Deja huellas de amor en cada paso que das</p>
         </div>
     </div>
+</footer>
 </body>
 </htm

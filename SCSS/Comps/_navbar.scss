@@ -1,0 +1,12 @@
+.navbar {
+    margin-top: 0; /* Elimina el espacio superior */
+    padding: 0.5rem 0; /* Ajusta el relleno vertical */
+    background-color: $color-marron-claro;
+    a {
+        color: white;
+        transition: color 0.3s;
+        &:hover {
+            color: $color-link-hover;
+        }
+    }
+}
